@@ -1,0 +1,47 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg">
+  <defs><radialGradient id="lumi-luz" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#fffbd1" stop-opacity="0.95"/><stop offset="45%" stop-color="#ffd84d" stop-opacity="0.45"/>
+    <stop offset="100%" stop-color="#ffd84d" stop-opacity="0"/></radialGradient></defs>
+  <g class="corpo-todo">
+    <circle class="luz" cx="150" cy="262" r="120" fill="url(#lumi-luz)" opacity="0.55"/>
+    <g class="asa asa-e">
+      <ellipse cx="72" cy="168" rx="62" ry="38" transform="rotate(-28 72 168)" fill="#ffffff" fill-opacity="0.7" stroke="#4a3428" stroke-width="5"/>
+      <ellipse cx="80" cy="214" rx="44" ry="26" transform="rotate(16 80 214)" fill="#ffffff" fill-opacity="0.6" stroke="#4a3428" stroke-width="5"/>
+    </g>
+    <g class="asa asa-d">
+      <ellipse cx="228" cy="168" rx="62" ry="38" transform="rotate(28 228 168)" fill="#ffffff" fill-opacity="0.7" stroke="#4a3428" stroke-width="5"/>
+      <ellipse cx="220" cy="214" rx="44" ry="26" transform="rotate(-16 220 214)" fill="#ffffff" fill-opacity="0.6" stroke="#4a3428" stroke-width="5"/>
+    </g>
+    <ellipse class="barriga" cx="150" cy="268" rx="56" ry="58" fill="#fff3a3" stroke="#4a3428" stroke-width="6"/>
+    <path d="M104 252 Q150 268 196 252 M110 284 Q150 298 190 284" fill="none" stroke="#f2c84b" stroke-width="7" stroke-linecap="round"/>
+    <path d="M128 322 v14 M172 322 v14" stroke="#4a3428" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="150" cy="206" rx="52" ry="40" fill="#ffd84d" stroke="#4a3428" stroke-width="6"/>
+    <g class="braco braco-e"><path d="M108 206 Q80 222 76 246" fill="none" stroke="#4a3428" stroke-width="10" stroke-linecap="round"/><circle cx="75" cy="250" r="10" fill="#ffd84d" stroke="#4a3428" stroke-width="5"/></g>
+    <g class="braco braco-d"><path d="M192 206 Q220 222 224 246" fill="none" stroke="#4a3428" stroke-width="10" stroke-linecap="round"/><circle cx="225" cy="250" r="10" fill="#ffd84d" stroke="#4a3428" stroke-width="5"/></g>
+    <g class="cabeca">
+      <g class="antenas">
+        <path d="M128 52 Q112 18 88 12" fill="none" stroke="#4a3428" stroke-width="7" stroke-linecap="round"/>
+        <path d="M172 52 Q188 18 212 12" fill="none" stroke="#4a3428" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="86" cy="12" r="13" fill="#ff7a6b" stroke="#4a3428" stroke-width="5"/>
+        <circle cx="214" cy="12" r="13" fill="#ff7a6b" stroke="#4a3428" stroke-width="5"/>
+      </g>
+      <circle cx="150" cy="114" r="78" fill="#ffd84d" stroke="#4a3428" stroke-width="7"/>
+      <path d="M118 46 Q134 34 150 40" fill="none" stroke="#fff6c4" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="98" cy="142" rx="16" ry="10" fill="#ff7a6b" opacity="0.55"/>
+      <ellipse cx="202" cy="142" rx="16" ry="10" fill="#ff7a6b" opacity="0.55"/>
+      <g class="olhos olhos-normal"><ellipse cx="122" cy="104" rx="20" ry="26" fill="#fff" stroke="#4a3428" stroke-width="6"/>
+      <circle cx="126" cy="111" r="12.4" fill="#4a3428"/>
+      <circle cx="132" cy="102" r="4.8" fill="#fff"/><circle cx="120" cy="118" r="2.2" fill="#fff"/><ellipse cx="178" cy="104" rx="20" ry="26" fill="#fff" stroke="#4a3428" stroke-width="6"/>
+      <circle cx="182" cy="111" r="12.4" fill="#4a3428"/>
+      <circle cx="188" cy="102" r="4.8" fill="#fff"/><circle cx="176" cy="118" r="2.2" fill="#fff"/></g>
+      <g class="olhos olhos-feliz" opacity="0"><path d="M102 110 Q122 78 142 110" fill="none" stroke="#4a3428" stroke-width="9" stroke-linecap="round"/><path d="M158 110 Q178 78 198 110" fill="none" stroke="#4a3428" stroke-width="9" stroke-linecap="round"/></g>
+      <g class="olhos olhos-surpreso" opacity="0"><circle cx="122" cy="104" r="27.3" fill="#fff" stroke="#4a3428" stroke-width="6"/>
+      <circle cx="122" cy="106" r="8.4" fill="#4a3428"/><circle cx="128" cy="99" r="3.2" fill="#fff"/><circle cx="178" cy="104" r="27.3" fill="#fff" stroke="#4a3428" stroke-width="6"/>
+      <circle cx="178" cy="106" r="8.4" fill="#4a3428"/><circle cx="184" cy="99" r="3.2" fill="#fff"/></g>
+      <g class="boca boca-sorriso"><path d="M134 148 Q150 162.4 166 148" fill="none" stroke="#4a3428" stroke-width="7" stroke-linecap="round"/></g>
+      <g class="boca boca-aberta" opacity="0"><path d="M134 144 Q150 138 166 144 Q164.4 172 150 172.8 Q135.6 172 134 144 Z" fill="#9b3b4f" stroke="#4a3428" stroke-width="6" stroke-linejoin="round"/>
+        <ellipse cx="150" cy="165.28" rx="8.32" ry="5.76" fill="#ff8fa3"/></g>
+      <g class="boca boca-oo" opacity="0"><ellipse cx="150" cy="154.4" rx="7.2" ry="9.6" fill="#9b3b4f" stroke="#4a3428" stroke-width="6"/></g>
+    </g>
+  </g>
+</svg>
